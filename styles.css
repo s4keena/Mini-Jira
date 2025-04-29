@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    min-height: 300px;
+    background: #62c6df;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+  }
+  
+  .column h3 {
+    margin-top: 0;
+  }
+  
+  .task {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: grab;
+  }
+  
+  .task {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  
